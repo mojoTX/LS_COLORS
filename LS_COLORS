@@ -60,6 +60,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # documents {{{1
 *README               38;5;220;1
 *README.rst           38;5;220;1
+*README.md            38;5;220;1
 *LICENSE              38;5;220;1
 *COPYING              38;5;220;1
 *INSTALL              38;5;220;1
@@ -556,6 +557,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .properties           38;5;116
 .sfv                  38;5;116
 .srt                  38;5;116
+.sub                  38;5;116
 .theme                38;5;116
 .torrent              38;5;116
 .urlview              38;5;116
@@ -573,6 +575,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .asc                  38;5;192;3
 .enc                  38;5;192;3
 .sig                  38;5;192;3
+.p7s                  38;5;192;3
 # 1}}}
 # emulators {{{1
 .32x                  38;5;213
@@ -642,7 +645,6 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .plt                  38;5;7
 .pm                   38;5;7
 .rdf                  38;5;7
-.rst                  38;5;7
 .ru                   38;5;7
 .sch                  38;5;7
 .sty                  38;5;7
