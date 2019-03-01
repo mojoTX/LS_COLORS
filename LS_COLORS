@@ -105,6 +105,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .djvu                 38;5;141
 .pdf                  38;5;141
 .PDF                  38;5;141
+.mobi                 38;5;141
+.epub                 38;5;141
 # words {{{3
 .docm                 38;5;111;4
 .doc                  38;5;111
@@ -195,6 +197,16 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .R                    38;5;49
 # GrADS script
 .gs                   38;5;81
+# Clojure
+.clj                  38;5;41
+.cljs                 38;5;41
+.cljc                 38;5;41
+# Clojure gorilla REPL worksheet
+.cljw                 38;5;41
+# Scala
+.scala                38;5;41
+# Dart
+.dart                 38;5;51
 
 # compiled {{{2
 #
@@ -234,8 +246,20 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .go                   38;5;81
 #   fortran
 .f                    38;5;81
+.F                    38;5;81
 .for                  38;5;81
 .ftn                  38;5;81
+.f90                  38;5;81
+.F90                  38;5;81
+.f95                  38;5;81
+.F95                  38;5;81
+.f03                  38;5;81
+.F03                  38;5;81
+.f08                  38;5;81
+.F08                  38;5;81
+# Nim
+.nim                  38;5;81
+.nimble               38;5;81
 #   pascal
 .s                    38;5;110
 .S                    38;5;110
@@ -245,6 +269,9 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .swift                38;5;219
 #   ?
 .sx                   38;5;81
+# Vala
+.vala                 38;5;81
+.vapi                 38;5;81
 #   interface file in GHC - https://github.com/trapd00r/LS_COLORS/pull/9
 .hi                   38;5;110
 #   haskell
@@ -258,6 +285,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # orchestration {{{2
 .tf                   38;5;168
 .tfstate              38;5;168
+.tfvars               38;5;168
 # orchestration 2}}}
 # html {{{2
 .css                  38;5;125;1
@@ -320,6 +348,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .tif                  38;5;97
 .TIFF                 38;5;97
 .cdr                  38;5;97
+.flif                 38;5;97
 .gif                  38;5;97
 .ico                  38;5;97
 .jpeg                 38;5;97
@@ -329,6 +358,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .png                  38;5;97
 .psd                  38;5;97
 .xpm                  38;5;97
+.webp                 38;5;97
 # }}}
 # vector {{{1
 .ai                   38;5;99
@@ -616,12 +646,12 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .mm                   38;5;7
 #   perldoc
 .pod                  38;5;7
-#   GIMP brush
+#   GIMP files
 .gbr                  38;5;7
+.scm                  38;5;7
+.xcf                  38;5;7
 # printer spool file
 .spl                  38;5;7
-#   GIMP project file
-.scm                  38;5;7
 # RStudio project file
 .Rproj                38;5;11
 #   Nokia Symbian OS files
